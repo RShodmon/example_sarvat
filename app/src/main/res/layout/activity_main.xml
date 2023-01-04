@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"
+        android:text="REST API"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/get_button"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="#2196F3"
+        android:padding="10dp"
+        android:text="GET METHOD"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/get_user_button"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="#00BCD4"
+        android:padding="10dp"
+        android:text="GET ONE USER"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/post_button"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="#4CAF50"
+        android:padding="10dp"
+        android:text="POST METHOD"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/put_button"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="#FF9800"
+        android:padding="10dp"
+        android:text="PUT METHOD"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        tools:ignore="TextContrastCheck" />
+
+
+</LinearLayout>
